@@ -1,0 +1,116 @@
+body {
+	font-family: Arial, sans-serif;
+	margin: 0;
+	padding: 0;
+}
+
+header {
+	background-color: #333;
+	color: #fff;
+	padding: 20px;
+	text-align: center;
+}
+
+nav {
+	background-color: #ddd;
+	padding: 10px;
+}
+
+nav ul {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+	text-align: center;
+}
+
+nav li {
+    display: inline-block;
+    margin: 0 10px;
+    }
+    
+    nav a {
+    color: #333;
+    text-decoration: none;
+    }
+    
+    main {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 20px;
+    }
+    
+    section {
+    margin: 20px;
+    width: 600px;
+    }
+    
+    article {
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    padding: 10px;
+    }
+    
+    article h2 {
+    margin: 0;
+    }
+    
+    article p.meta {
+    color: #999;
+    font-style: italic;
+    margin: 10px 0;
+    }
+    
+    aside {
+    background-color: #eee;
+    padding: 20px;
+    }
+    
+    footer {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+    }
+    
+    @media (max-width: 768px) {
+    main {
+    flex-direction: column;
+    }
+    section {
+        width: 100%;
+    }
+    }
+    .image-gallery {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        margin: 20px 0;
+    }
+    
+    .image-gallery img {
+        max-width: 100%;
+        margin: 10px;
+        box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+    }
+    
+    @media (max-width: 768px) {
+        .image-gallery {
+        
+            flex-direction: column;
+            align-items: center;
+        }
+        
+        .image-gallery img {
+            max-width: 80%;
+        }
+    }
+    /*
+In this CSS code, I used flexbox to create a gallery layout for the images. The `display` property is set to `flex`, and the `flex-wrap` property is set to `wrap` to allow the images to wrap to the next line if the container width is not enough. The `justify-content` property is set to `center` to center the images horizontally, and `margin` property is added to create some space between the images.
+
+For each `img` element, I added `max-width` property to limit the maximum width of the image to 100% of its container, and `margin` property to create some space around the images. I also added `box-shadow` property to add a subtle shadow effect to the images.
+
+Finally, I added a media query to adjust the styling of the gallery on smaller screens. In this case, I changed the `flex-direction` property to `column` to stack the images vertically, and `align-items` property to `center` to center the images vertically.
+
+You can customize the CSS code further to achieve the desired styling for your image gallery.
+*/                
