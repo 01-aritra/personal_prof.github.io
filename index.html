@@ -2,10 +2,11 @@
 <html>
   <head>
     <meta charset="UTF-8">
-    <title>Aritra Mishra-Personal Profile</title>
+    <title>Aritra Mishra- Personal Profile</title>
     <link rel="stylesheet" href="happy.css">
   </head>
   <body>
+    
     <header class="fixed-header">
        
 		
@@ -86,21 +87,72 @@
           <p>Innovative B.Tech engineer with a passion for problem-solving and creating technology.Dedicated  with a strong work ethic and a commitment to excellence.Strategic thinker and skilled B.Tech engineer with a talent for designing and developing complex systems.</p>
           <a href="cv.html" class="link-btn">C.V.</a>
           <a href="#" class="link-btn">CARRER</a>
-          <a href="#" class="link-btn">CONTACT ME</a>
+          <a href="https://01-aritra.github.io/sub_form/" class="link-btn">CONTACT ME</a>
         </div>
       </div>
-		
+      <section>
+        <header>
+            <h2>Quote</h2>
+        </header>
+        <article>
+            <header>
+                <h3>Quotation - from Srimat Bhagvat Gita</h3>
+                <p class="meta">Start Date - End Date | Aritra Mishra</p>
+            </header>
+            <h2>How can I develop a deeper sense of trust in the universe and its plan for me?</h2>
+            <p>The Bhagavad Gita teaches that we should have faith in the Supreme Lord and surrender to His will. By doing so, we will develop a deeper sense of trust in the universe and its plan for us. The following verse from the Gita can be helpful in developing this trust:
+
+              "Surrendering all your works unto Me, with full knowledge of Me, free from the attachment of desire and fruit of action, come to Me, for refuge. I will deliver you from all sinful reactions. Do not grieve." </p>
+        
+              <button class="copy-btn">Copy</button>
+                </article>
+        <article>
+            <header>
+                <h3>Quotation - from Srimat Bhagvat Gita</h3>
+                <p class="meta">Start Date - End Date | Aritra Mishra</p>
+            </header>
+            <h2>How can a coder get more focused to his/her work ?</h2>
+            <p>"O Arjuna, to become more focused in work, one must have a steady mind and a sense of detachment towards the outcome. One should perform their duties without any attachment to the results, and surrender the fruits of their actions to me. By doing so, one can remain equanimous in both success and failure, and maintain concentration on the task at hand. Also, it is important to take breaks from work and engage in activities that rejuvenate and refresh the mind, like meditation and spending time in nature. In the Gita, I have said, "Be steadfast in yoga, O Arjuna. Perform your duty and abandon all attachment to success or failure. Such evenness of mind is called yoga." (2.48) Therefore, focus on the present moment, detach from the outcome, and surrender to me; this will lead to a more concentrated and peaceful state of work."</p>
+            <button class="copy-btn">Copy</button>
+          </article>
+        <article>
+            <header>
+                <h3>Quotation - from Srimat Bhagvat Gita</h3>
+                <p class="meta">Start Date - End Date | aritra mishra</p>
+            </header>
+            <h2>How can I overcome my sense of envy and jealousy towards others?</h2>
+            <p>The Bhagavad Gita teaches that the way to overcome jealousy is to cultivate detachment. This means that we should not be attached to the things that we want, and should instead focus on our own inner happiness. One of the best ways to do this is to practice yoga and meditation, which will help us to find inner peace.</p>
+            <button class="copy-btn">Copy</button>
+          </article>
+    </section>
+    
+   <script> const copyButtons = document.querySelectorAll('.copy-btn');
+
+    copyButtons.forEach(button => {
+      button.addEventListener('click', () => {
+        const article = button.parentNode;
+        const jobDescription = article.querySelector('p');
+        const text = jobDescription.innerText;
+        navigator.clipboard.writeText(text);
+        button.innerText = 'Copied!';
+        setTimeout(() => {
+          button.innerText = 'Copy';
+        }, 2000);
+      });
+    });</script>
+
     </main>
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
     <script src="script.js"></script>
+    
     <footer>
         <div class="container">
             <div class="row">
               <div class="col-md-6 left">
-                <p>&copy; 2023 My Company. All Rights Reserved.</p>
+                <p>&copy; 2023 aritra_mishra. All Rights Reserved.</p>
               </div>
               <div class="col-md-6 right">
-                <p>Phone: (123) 456-7890 | Address: 123 Main Street, Anytown USA 12345</p>
+                <p>Phone: (+91) 6290381892 | Address: Vill + P.O.- Kalindi,East Midnapore</p>
               </div>
             </div>
           </div>
@@ -110,6 +162,20 @@
             <a href="#"><i class="fab fa-twitter"></i></a>
             <a href="#"><i class="fab fa-linkedin"></i></a>
           </div>
+      <script>const footer = document.querySelector('footer');
+        let lastScrollPosition = window.pageYOffset;
+        
+        window.addEventListener('scroll', () => {
+          const currentScrollPosition = window.pageYOffset;
+          if (currentScrollPosition < lastScrollPosition) {
+            footer.style.display = 'block';
+          } else {
+            footer.style.display = 'none';
+          }
+          lastScrollPosition = currentScrollPosition;
+        });
+        </script>
+
     </footer>
   </body>
   <head>
