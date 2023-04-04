@@ -123,8 +123,8 @@ position: absolute;
 bottom: 0;
 width: 100%;
   position: fixed;
- height: 50px;
- 
+ height: 15px;
+ margin-top: auto;
 }
 
 footer .left {
@@ -168,7 +168,7 @@ body {
   background-repeat: no-repeat;
 } 
 .container {
-margin: 0px auto;
+margin: -22px auto;
 max-width: 800px;
 padding: 20px;
 /* background-color: #fff; */
@@ -210,3 +210,67 @@ transition: background-color 0.3s ease;
 .link-btn:hover {
 background-color: #666;
 }
+section {
+  margin-top: 2rem;
+  padding: 2rem;
+  background-color: #fff;
+}
+
+header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background-color: #fff;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  padding: 1rem 2rem;
+}
+
+header h2 {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+  /* background-color: #24ccea; */
+}
+header h3 {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+  
+  color: #fff;
+}
+article {
+  margin-top: 6rem;
+  margin-bottom: 2rem;
+  background-color: #fff;
+  box-shadow: 8px 5.5px 8px 5.5px rgba(0, 0, 0, 0.1);;
+}
+
+article h3 {
+  font-size: 1.5rem;
+  margin-bottom: 0.5rem;
+}
+
+article .meta {
+  font-size: 1rem;
+  color: #999;
+  margin-bottom: 1rem;
+}
+
+article p {
+  font-size: 1.2rem;
+  line-height: 1.5;
+}
+.copy-btn {
+  float: right;
+  margin-top: 1rem;
+  background-color: #ccc;
+  color: #000;
+  border: none;
+  padding: 0.5rem;
+  border-radius: 0.25rem;
+}
+
+.copy-btn:hover {
+  background-color: #000;
+  color: #fff;
+}
+
