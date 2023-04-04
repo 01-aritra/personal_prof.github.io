@@ -123,6 +123,7 @@ position: absolute;
 bottom: 0;
 width: 100%;
   position: fixed;
+  height: 50px;
  
 }
 
@@ -167,7 +168,7 @@ body {
   background-repeat: no-repeat;
 } 
 .container {
-margin: 70px auto;
+margin: 0px auto;
 max-width: 800px;
 padding: 20px;
 /* background-color: #fff; */
