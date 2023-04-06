@@ -273,4 +273,16 @@ article p {
   background-color: #000;
   color: #fff;
 }
-
+.change_content::after{
+  content: ' ';
+  animation: changetext 10s infinite linear;
+  color: #ff7402;
+}
+@keyframes changetext{
+  0%{ content:"DEVLOPER";}
+  25%{ content:"PROGRAMER";}
+  45%{ content:"BUG-FINDER";}
+  65%{ content:"TUTOR";}
+  80%{ content:"CYBER-ENGINEER";}
+  100%{ content:"COMPUTER - ENGINEER";}
+}
