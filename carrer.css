@@ -1,0 +1,279 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+      body {
+        font-family: Arial, sans-serif;
+        margin: 0;
+        padding: 0;
+      }
+      header {
+        background-color: #0077b6;
+        color: #fff;
+        padding: 20px;
+      }
+      h1 {
+        margin: 0;
+      }
+      .container {
+        max-width: 800px;
+        margin: 0 auto;
+        padding: 20px;
+      }
+      .qualification {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-bottom: 20px;
+      }
+      .qualification h3 {
+        margin: 0;
+        font-size: 22px;
+        margin-top: 3rem;
+        margin-bottom: 5rem;
+      }
+      .qualification p {
+        margin: 1px;
+        font-size: 18px;
+        margin-top: -1rem;
+       padding-top: 0px;
+       margin-left: -29rem;
+       margin-bottom: 10px;
+      }
+      .defn{
+          margin: -75px;
+          margin-top: 4rem
+      } 
+      .cgpa {
+        margin-top: 20px;
+        font-size: 24px;
+      }
+      .percentline{
+        width: 100px;
+        height: 100px;
+        
+      }
+      .cgpa p span {
+        font-size: 24px;
+        color: #0077b6;
+        margin-left: 500px;
+        vertical-align: 50px;
+      }
+      .feedback-form {
+        max-width: 500px;
+        margin: 0 auto;
+        padding: 20px 4rem;
+        background-color: #f0f0f0;
+        border-radius: 10px;
+      }
+      
+      .feedback-form h2 {
+        text-align: center;
+        font-size: 24px;
+        margin-bottom: 20px;
+      }
+      
+      .feedback-form label {
+        display: block;
+        font-size: 16px;
+        font-weight: bold;
+        margin-bottom: 10px;
+      }
+      
+      .feedback-form input[type="text"],
+      .feedback-form input[type="email"],
+      .feedback-form select,
+      .feedback-form textarea {
+        width: 100%;
+        padding: 10px;
+        margin-bottom: 20px;
+        border: 1px solid #ccc;
+        border-radius: 5px;
+        font-size: 16px;
+      }
+      
+      .feedback-form textarea {
+        height: 100px;
+      }
+      
+      .feedback-form button[type="submit"] {
+        display: block;
+        width: 100%;
+        padding: 10px;
+        background-color: #4caf50;
+        color: #fff;
+        border: none;
+        border-radius: 5px;
+        font-size: 16px;
+        cursor: pointer;
+      }
+      
+      .feedback-form button[type="submit"]:hover {
+        background-color: #3e8e41;
+      }
+      .container-box1 {
+        /* set width and height of container */
+        width: 1245px;
+        height: 151px;
+     
+        /* set background color */
+        background-color: #fff;
+     
+        /* add border and padding */
+        border: 1px ;
+        padding: 10px;
+     
+        /* add rounded corners */
+        border-radius: 5px;
+     }
+     .button-container {
+      /* set width of container */
+      width: 100%;
+   
+      /* center the button */
+      display: flex;
+      justify-content: center;
+      align-items: center;
+   
+      /* add margin and padding */
+      margin-top: 20px;
+      padding: 10px;
+   }
+   
+   .btn {
+      /* set button background color */
+      background-color: #4CAF50;
+   
+      /* set button text color */
+      color: white;
+   
+      /* set button padding and border */
+      padding: 10px 20px;
+      border: none;
+   
+      /* add rounded corners */
+      border-radius: 5px;
+   
+      /* add hover effect */
+      transition: background-color 0.3s ease;
+      margin-top: -5rem;;
+   }
+   
+   .btn:hover {
+      background-color: #3e8e41;
+   }
+   
+   .container-for-feedbackdisplay {
+    /* set width and height of container */
+    width: 1245px;
+    height: 500px;
+ 
+    /* set background color */
+    background-color: #f2f2f2;
+ 
+    /* add border and padding */
+    border: 1px solid #ccc;
+    padding: 10px;
+ 
+    /* add rounded corners */
+    border-radius: 5px;
+    margin-top: 2rem;
+ }
+ 
+ .heading {
+    /* add margin and text styling */
+    margin-top: 0;
+    text-align: center;
+    font-size: 24px;
+ }
+ 
+ .image-container {
+    /* set display mode and add margin */
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 20px;
+ }
+ 
+ .image-container img {
+    /* set size and margin of images */
+    width: 150px;
+    height: 150px;
+    margin: 10px;
+ }
+ header {
+  /* set background color and height */
+  background-color: #333;
+  height: 60px;
+
+  /* add padding and position */
+  padding: 10px;
+  position: relative;
+}
+
+.logo-container {
+  /* center logo using flexbox */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+}
+
+.logo-container img {
+  /* set max-width and max-height of logo */
+  max-width: 100%;
+  max-height: 100%;
+}
+
+nav {
+  /* float navigation to the right */
+  float: right;
+}
+
+nav ul {
+  /* remove default padding and margin from list */
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+nav ul li {
+  /* float list items to the left */
+  float: left;
+}
+
+nav ul li a {
+  /* add padding to links and set image size */
+  display: block;
+  padding: 10px;
+  width: 30px;
+  height: 30px;
+}
+
+.social-icons {
+  /* float social icons to the right */
+  position: absolute;
+  top: 0;
+  right: 10px;
+  bottom: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.social-icons a {
+  /* add margin to social icons */
+  margin-left: 10px;
+}
+
+.fa {
+  /* add font size and color to social icons */
+  font-size: 20px;
+  color: white;
+}
+
+ 
+      
